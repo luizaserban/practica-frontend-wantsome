@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form 3</title>
+    </head>
+
+    <body>
+        <form action="/action_page.php" method="POST">
+        <font>Search for</font><br>
+
+        <input type="search" q="googlesearch" placeholder="chocolate cheesecake recipes">
+        <button type="submit">Search</button><br>
+
+        <font>Match:</font>
+        <input type="radio" name="match">
+        <label for="terms">Any word</label>
+        <input type="radio" name="match" checked>
+        <label for="terms">All words</label>
+        <input type="radio" name="match">
+        <label for="terms">Exact phrase</label><br>
+
+        <input type="checkbox" name="sound" checked>
+        <label for="sound">Sound-alike matching</label><br>
+        
+        <font>Dated :</font>
+        <input type="radio" name="dated">
+        <label for="dated">
+            <select id="when" >
+                <option value="Within the last year" selected>Within the last year</option>
+            </select>        
+        </label><br>
+    
+        <input type="radio" name="dated" checked>
+        <label for="dated">
+        From: 
+        </label>
+        <select id="month" >
+            <option value="september" selected>September</option>
+        </select>
+        <select id="day" >
+            <option value="8" selected>8</option>
+        </select>
+        ,
+        <select id="year" >
+            <option value="2009" selected>2009</option>
+        </select><br>
+
+        <label for="dated">
+        To: 
+        </label>
+        <select id="month" >
+            <option value="october" selected>October</option>
+        </select>
+        <select id="day" >
+            <option value="18" selected>18</option>
+        </select>
+            ,
+        <select id="year" >
+            <option value="2011" selected>2011</option>
+        </select><br>
+
+        <font>Within:</font>
+        <select id="within">
+            <option value="Description">Description</option>
+            <option value="title">Title</option>
+        </select><br>
+
+        <font>Show:</font>
+        <select id="number-words">
+            <option value="10">10</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <font>results</font>
+        <select id="summary">
+            <option value="with">with</option>
+            <option value="without">without</option>
+        </select>
+        <font>summaries</font><br>
+
+        <font>Sort by:</font>
+        <select id="importance">
+            <option value="relevance">relevance</option>
+            <option value="date">date</option>
+            <option value="newest">newest</option>
+        </select>
+        
+    </form>
+    </body>
+</html>

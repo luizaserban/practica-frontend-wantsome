@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form 1</title>
+    </head>
+
+    <body>
+        <form action="/action_page.php" method="POST">
+            <label for="nume">*Nume</label><br>
+            <input type="text" name="nume" required><br>
+
+            <br>
+            <label for="prenume">*Prenume</label><br>
+            <input type="text" name="prenume" required><br>
+
+            <br>
+            <label for="email">*Email</label><br>
+            <input type="email" name="email" value="@gmail.com" required><br>
+
+            <p>Sex</p>
+            <label for="sex">Masculin</label>
+            <input type="radio" name="sex">
+            <label for="sex">Feminin</label>
+            <input type="radio" name="sex"><br>
+
+            <br>
+            <label for="varsta">Varsta</label><br>
+            <input type="number" name="varsta" min="18" max="85" value="18"><br>
+
+            <br>
+            <label for="tara">Tara</label><br>
+            <select id="tara">
+                <option value="Romania">Romania</option>
+                <option value="Spania">Spania</option>
+                <option value="Olanda">Olanda</option>
+                <option value="Belgia">Belgia</option>
+            </select><br>
+
+            <br>
+            <label for="oras">Oras</label><br>
+            <input type="text" name="oras" value="Iasi"><br>
+
+            <br>
+            <label for="adresa">Adresa</label><br>
+            <input type="text" name="adresa"><br>
+
+            <br>
+            <label for="cod postal">Cod postal</label><br>
+            <input type="number" name="cod postal" maxlength="6"><br>
+
+            <br>
+            <label for="CV">Atasare CV</label><br>
+            <input type="file" name="CV"><br>
+
+            <br>
+            <label for="mesaj">Mesaj</label><br>
+            <textarea name="mesaj" maxlength="300"></textarea><br>
+
+            <br>
+            <input type="reset" value="Resetare"><br>
+
+            <br>
+            <input type="submit" value="Trimite">
+
+        </form>
+    </body>
+</html>
