@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form 2</title>
+    </head>
+
+    <body>
+        <h3>Travel reservation form</h3>
+
+        <p>* denotes mandatory</p>
+
+        <form action="/action_page.php" method="POST">
+            <label for="nume">Full name*:</label><br>
+            <input type="text" name="nume" placeholder="FirstName LastName" required><br>
+
+            <label for="email">Email address*:</label><br>
+            <input type="email" name="email" placeholder="EMAIL_ADDRESS" required>
+
+            <label for="tour package"><br>Select Tour Package</label><br>
+            <select id="tour package" required>
+                    <option value="goa">Goa</option>
+                    <option value="premium">Premium</option>
+                    <option value="standard">Standard</option>
+            </select><br>
+
+            <label for="date">Arrival date*:</label><br>
+            <input type="date" name="date" placeholder="m/d/y" required><br>
+
+            <label for="persons">Number of persons*:</label><br>
+            <input type="number" name="persons" placeholder="UNKNOWN_TYPE" required><br>
+
+            <!--Stiu ca font nu se mai foloseste, dar nu am gasit alta modalitate prin care sa pun randurile
+            unele sub altele. Cu <p> mi se punea automat spatiu-->
+            <p>What would you want to avail?*</p><br>
+            <label for="avail">Boarding</label>
+            <input type="checkbox" name="avail" required><br>
+            <label for="avail">Fooding</label>
+            <input type="checkbox" name="avail"><br>
+            <label for="avail">Sight seeing</label>
+            <input type="checkbox" name="avail"><br>
+
+            <label for="discount">Discount coupon code:</label><br>
+            <input type="text" name="discount" placeholder="UNKNOWN_TYPE" required><br>
+
+            <p>Terms and conditions*</p><br>
+            <input type="radio" name="terms" checked>
+            <label for="terms">I agree</label>
+            <input type="radio" name="terms">
+            <label for="terms">I disagree</label><br>
+
+            <input type="submit" value="Complete reservation">
+
+        </form>
+    </body>
+</html>
