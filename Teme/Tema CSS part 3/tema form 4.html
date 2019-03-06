@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form 4</title>
+        <link rel="stylesheet" href="css_form4.css">
+    </head>
+
+    <body>
+        <h3 class="header-color">My feedback form</h3>
+
+        <form action="/action_page.php" method="POST">
+            <ul>
+                <li>  
+                    <label for="name"></label>Name :</label>
+                    <input type="text" name="name"><br>
+                </li><br>
+                
+                <li>  
+                    <label for="mail"></label>Email :</label>
+                    <input type="email" name="mail"><br>
+                </li><br>
+                
+                <li>
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password" minlength="8" required>
+                </li>
+                
+                <li>
+                    <p class="color-p">Please check all the emotions that apply to you :</p>
+                    <ul>
+                        <li>
+                            <label for="feel" class="answer">Angry</label>
+                            <input type="checkbox" name="feel" checked><br>
+                        </li>
+                        <li>
+                            <label for="feel" class="answer">Sad</label>
+                            <input type="checkbox" name="feel"><br>
+                        </li>
+                        <li>
+                            <label for="feel" class="answer">Happy</label>
+                            <input type="checkbox" name="feel">
+                        </li>
+                        <li>
+                            <label for="feel" class="answer">Ambivalent</label>
+                            <input type="checkbox" name="feel">
+                        </li>
+                    </ul>    
+                </li>
+                
+                <li>
+                    <p class="color-p">How satisfied were you with our service ?</p>
+                    <ul>
+                        <li>
+                            <label for="satisfied" class="answer">Very satisfied</label>
+                            <input type="checkbox" name="satisfied" checked><br>
+                        </li>
+                        <li>
+                            <label for="satisfied" class="answer">Satisfied</label>
+                                <input type="checkbox" name="satisfied"><br>
+                        </li>
+                        <li>
+                            <label for="satisfied" class="answer">Didn't care</label>
+                            <input type="checkbox" name="satisfied">
+                        </li>
+                        <li>
+                            <label for="satisfied" class="answer">Dissatisfied</label>
+                                <input type="checkbox" name="satisfied">
+                        </li>
+                        <li>
+                            <label for="satisfied" class="answer">Very dissatisfied</label>
+                            <input type="checkbox" name="satisfied">
+                        </li>
+                    </ul>    
+                </li>
+                
+                <li>
+                    Further comments: 
+                    <textarea rows="4" cols="30"></textarea>
+                </li>
+                
+                <li>
+                    <label for="bio"></label>Bio photo :</label>
+                    <input type="text" name="bio">
+                    <input type="file" value="Choose..."><br>
+                </li>
+                
+                <li>
+                    <br>
+                    <label for="location">Location visited :</label>
+                    <select id="location">
+                        <option value="">Select location</option>
+                    </select><br>
+                </li><br>
+                
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

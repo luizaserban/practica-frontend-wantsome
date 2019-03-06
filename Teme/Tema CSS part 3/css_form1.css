@@ -1,0 +1,20 @@
+input[type=text]:first-of-type {
+    color: burlywood
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+input[type=text] {
+    background-color: aquamarine;
+}
+
+input[type=number] {
+    background-color: beige;
+}
+
+input[type=submit]:hover {
+    color: violet;
+}

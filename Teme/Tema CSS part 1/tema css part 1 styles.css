@@ -1,0 +1,23 @@
+.red-link {
+    color: red
+}
+
+.same-border {
+    border: 1px solid black;
+}
+
+.green-link {
+    color: green;
+}
+
+#other-color {
+    color: #c55;
+}
+
+.other-font {
+    font-family: 'Lobster', cursive;
+}
+
+figure {
+    font-family: 'Indie Flower', cursive;
+}
