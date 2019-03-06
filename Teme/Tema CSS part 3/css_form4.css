@@ -1,0 +1,20 @@
+.header-color {
+    color: blueviolet;
+}
+
+.color-p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text]:focus {
+    color: blue;
+} 
+
+.answer {
+    background-color: paleturquoise;
+}
+
+input[type=submit]:hover {
+    color: lawngreen;
+}
