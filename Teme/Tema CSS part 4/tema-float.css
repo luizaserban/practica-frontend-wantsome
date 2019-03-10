@@ -1,0 +1,20 @@
+body {
+    border: 2px solid blue;
+}
+
+nav {
+    color: pink;
+    border: 2px solid red;
+    width: 15%;
+    float: left;
+}
+
+.yellow-border {
+    border: 2px solid orange;
+    top: 0;
+    margin-left: 15.3%;
+}
+
+footer {
+    border: 2px solid green;
+}
