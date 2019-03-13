@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to left, #616161, #9bc5c3);
+    max-width: 960px;
+    margin: 35px auto;
+}
+
+.food div {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.bites {
+    background: url(bites.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bread {
+    background: url(bread.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.drinks {
+    background: url(drinks.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.fast {
+    background: url(fast.jpg) no-repeat center;
+    background-size: cover;
+}
+
+@media all and (min-width:720px) {
+    .food {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+
+@media all and (max-width:720px) {
+    .food {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .bites {
+        grid-column: 1 / 1;
+        grid-row: 1 / 2;
+    }
+    .drinks {
+        grid-column: 1 / 1;
+        grid-row: 2 / 3;    
+    }
+    .bread {
+        grid-column: 1 / 1;
+        grid-row: 3 / 4;
+    }
+    .fast {
+        grid-column: 1 / 1;
+        grid-row: 4 / 5; 
+    }
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 35px;
+    height: 15%;
+    margin: 0;
+    flex-grow: 1;
+    padding: 5px;
+    color: white;
+}
