@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    text-align: center;
+    background-image: url(banner.jpg);
+    height: 300px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.subtitle,
+.article-text {
+    color: lightgray;
+}
+
+.article-button {
+    background-color: rgb(21, 109, 192);
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 50px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bloc-section-1 {
+    padding: 5%;
+}
+
+.line {
+    background-color: lightgrey;
+    width: 1px;
+    height: 38vh;
+    margin-top: 75px;
+}
+
+.section-2 {
+    height: 400px;
+    background-color: rgb(103, 159, 243)
+}
+
+.section-2 {
+    color: #fff;
+    text-align: center;
+}
+
+.section-2 h2 {
+    padding-top: 30px;
+    margin: 0;
+}
+
+.section-2-box-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+
+.section-2-box {
+    border: 1px solid white;
+    height: 200px;
+    width: 150px;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.name {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.section-3 h2 {
+    color: lightgray;
+}
+
+.section-3 {
+    text-align: center;
+}
+
+.section-3 span {
+    color: lightgray; 
+}
+
+.section-3-box-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image-section-3 {
+    width: 100%;
+}
+
+.section-3-box {
+    padding: 30px;
+    text-align: left;
+}
+
+.footer-line {
+    height: 1px;
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list li {
+    display: inline;
+    padding: 10px;
+}
+
+.footer-text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-text p {
+    margin: 0;
+    margin-left: 10px;
+}
