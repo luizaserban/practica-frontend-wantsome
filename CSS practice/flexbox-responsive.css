@@ -1,0 +1,38 @@
+header {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+nav {
+    background-color: blue;
+    height: 150px;
+    flex-grow: 1;
+}
+
+section {
+    background-color: bisque;
+    height: 150px;
+    flex-grow: 2;
+}
+
+aside {
+    background-color: greenyellow;
+    height: 150px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: orange;
+    height: 100px;
+}
+
+main {
+    display: flex;
+}
+
+@media all and (max-width:768px) {
+    main {
+        flex-direction: column;
+    }
+}
+    
