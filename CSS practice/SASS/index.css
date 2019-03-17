@@ -1,0 +1,57 @@
+body {
+  background-color: #eeffcc;
+}
+
+p {
+  background-color: #eeffcc;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  color: red;
+  font-size: 50px;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: black;
+}
+
+.list a {
+  color: green;
+}
+
+.list a:hover {
+  color: yellow;
+}
+
+.list a:visited {
+  color: black;
+}
+
+.another a {
+  background-color: yellow;
+  color: green;
+}
+
+.another a:hover {
+  color: red;
+}
+
+.another a:visited {
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,40 @@
+@mixin mylist {
+    a {
+        color: green;
+
+
+        &:hover {
+            color: yellow;
+        }
+
+        &:visited {
+            color: black;
+        }
+    }  
+}
+
+@include mylist();
+.list {
+    @include mylist;
+}
+
+
+@mixin a-list($base, $hover, $link) {
+    a {
+        background-color: $base;
+        color: green;
+
+        &:hover {
+            color: $hover;
+        }
+
+        &:visited {
+            color: $link;
+        }
+    }
+    
+}
+
+.another {
+    @include a-list(yellow,red ,black);
+}
