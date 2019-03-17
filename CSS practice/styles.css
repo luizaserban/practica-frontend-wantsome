@@ -1,0 +1,44 @@
+#second-div {
+    color: red;
+}
+
+a[href^="https://wantsome.ro/"] {
+    color: blue;
+}
+
+a[href^="https://www.google.com"] {
+    color: yellow;
+}
+
+#second-div span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.first-div :first-child {
+    color: #dd3a0d;
+}
+
+#second-div :last-child {
+    color: #ba0e81;
+}
+
+.third-div :nth-child(3) {
+    color: #0d7006;
+}
+
+a:hover {
+    color: pink;
+}
+
+#amazon:hover {
+    color: fuchsia;
+}
+
+.fourth-div > p {
+    color: brown;
+}
+
+.fourth-div h3 + h5 {
+    color: purple;
+}
