@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Wantsome</title>
+    </head>
+
+    <body>
+        <form>
+            <h3>Finalizare comanda</h3><br>
+
+            <br>
+            <label for="name">Nume:</label><br>
+            <input type="text" name="name" required><br>
+
+            <br>
+            <label for="prenume">Prenume:</label><br>
+            <input type="text" name="prenume" required><br>
+
+            <br>
+            <label for="cnp">CNP</label><br>
+            <input type="number" maxlength="13" required><br>
+
+            <br>
+            <p>Sex</p>
+            <label for="sex">Masculin</label>
+            <input type="radio" name="sex">
+            <label for="sex">Feminin</label>
+            <input type="radio" name="sex"><br>
+
+            <br>
+            <label for="date">Zi nastere</label>
+            <input type="date" name="date" min="2018-01-01" max="2018-12-31"><br>
+
+            <br>
+            <label for="telefon">Telefon:</label>
+            <input type="number" name="telefon"><br>
+
+            <br>
+            <p>Platiti cu card?</p>
+            <label for="card">Da</label>
+            <input type="radio" name="card">
+            <label for="card">Nu</label>
+            <input type="radio" name="card"><br>
+
+            <label for="nr card">Numar card</label><br>
+            <input type="number" name="nr card" maxlength="16"><br>
+            
+            <br>
+            <label for="adresa">Adresa</label><br>
+            <input type="text"><br>
+
+            <br>
+            <label for="localitate">Localitate</label><br>
+            <select id="localitate">
+                <option value="Iasi">Iasi</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Timisoara">Timisoara</option>
+            </select><br>
+
+            <br>
+            <label for="oras">Oras</label><br>
+            <select id="oras">
+                <option value="Iasi">Iasi</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Timisoara">Timisoara</option>
+            </select><br>
+
+            <br>
+            <label for="tara">Tara</label><br>
+            <select id="tara">
+                <option value="Romania">Romania</option>
+                <option value="Spania">Spania</option>
+                <option value="Italia">Italia</option>
+            </select><br>
+
+            <br>
+            <input type="submit" value="Submit"><br>
+
+        </form>
+    </body>
+
+</html>
