@@ -28,6 +28,7 @@ body {
 header {
     text-align: center;
     background-image: url(banner.jpg);
+    background-attachment: fixed;
     height: 300px;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
