@@ -1,4 +1,5 @@
-// Cerinta 1:
+/* 1. Scrieti o functie de tip named function care accepta ca argument un CNP si verifica sexul unei persoane. In urma apelului 
+acestei functii, se va returna un text de forma "Persoana verificata este de sexul M/F". */
 
 function verifyGender(cnp) {
     var cnpText = cnp.toString();
@@ -10,7 +11,14 @@ function verifyGender(cnp) {
     }
 }
     
-// Cerinta 2:
+/* 2. Scrieti o functie de tip function expression care accepta ca argument o valoare numerica cuprinsa intre 1 si 10 si decide calificativul 
+punctajului. Criteriile sunt urmatoarele:
+- 1-3 = E
+- 3-6 = D
+- 7-8 = B
+- 9 = A
+- 10 = A+
+Functia va returna un text de forma "Calificatul corespunzator punctajului [punctaj] este [calificativ]". */
 
 var calificativ = function(nota) {
     if(nota >= 1 && nota <= 3) {
@@ -26,7 +34,9 @@ var calificativ = function(nota) {
     }
 }
 
-//Cerinta 3:
+/* 3. Scrieti o functie care accepta ca argument numele marcii unei masini si returneaza un text de forma: "Marca [marca] se produce in [tara]".
+ Trebuie sa aveti macar 6 cazuri. In cazul in care functia nu recunoaste marca, va returna "Marca este necunoscuta. " Scrieti codul in 3 
+ variante diferite. */
 
 function undeSeProduce(marca) {
     if(marca === "Volvo") {
